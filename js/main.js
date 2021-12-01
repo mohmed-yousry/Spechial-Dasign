@@ -259,7 +259,7 @@ class Card {
 }
 
 let card1 = new Card(
-  "../img/prodect/advertising.svg",
+  "./img/prodect/advertising.svg",
   "Marketing",
   `We are professional marketeers, we will do anything you imagine in no time.
 
@@ -267,7 +267,7 @@ let card1 = new Card(
 );
 
 let card2 = new Card(
-  "../img/prodect/hosting-icon.svg",
+  "./img/prodect/hosting-icon.svg",
   "Hosting",
   `We are professional marketeers, we will do anything you imagine in no time.
 
@@ -281,7 +281,7 @@ let card3 = new Card(
 `
 );
 let card4 = new Card(
-  "../img/prodect/graphic-design.svg",
+  "./img/prodect/graphic-design.svg",
   "Cloud and Servers",
   `We are professional marketeers, we will do anything you imagine in no time.
 
