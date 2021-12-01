@@ -17,8 +17,6 @@ ul {
   list-style: none;
 }
 
-body {
-}
 
 :root {
   --main-color: #e91e63;
@@ -145,6 +143,10 @@ a {
     font-size: small;
   }
 
+  .box-show-bold {
+    display: none;
+  }
+
   .bold {
     right: -4rem !important;
   }
@@ -219,6 +221,12 @@ a {
   width: 80%;
   top: 20rem;
   height: 30px;
+}
+
+@media (max-width: 767px) {
+  .box-button {
+    top: 13rem;
+  }
 }
 
 .box-button button {
@@ -617,8 +625,7 @@ a {
   width: 30%;
   background-color: white;
   z-index: 1;
-  /*top: 50%;
-  */
+  
   left: 50%;
   padding: 0.5rem;
   box-shadow: 0 0 2px 0 black;
@@ -877,11 +884,6 @@ a {
 /* star Contact-Us */
 #Contact-Us {
   margin-top: var(--main-maring);
-}
-
-#Contact-Us .container {
-}
-#Contact-Us .container .form {
 }
 
 #Contact-Us .container .form form {
