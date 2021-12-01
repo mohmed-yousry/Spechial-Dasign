@@ -267,7 +267,7 @@ let card1 = new Card(
 );
 
 let card2 = new Card(
-  "./img/prodect/hosting-icon.svg",
+  "./img/prodect/graphic-design.svg",
   "Hosting",
   `We are professional marketeers, we will do anything you imagine in no time.
 
