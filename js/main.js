@@ -274,7 +274,7 @@ let card2 = new Card(
 `
 );
 let card3 = new Card(
-  "../img/prodect/mobile-app.svg",
+  "./img/prodect/mobile-app.svg",
   "Mobile Develope",
   `We are professional marketeers, we will do anything you imagine in no time.
 
