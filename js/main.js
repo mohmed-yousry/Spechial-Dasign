@@ -90,7 +90,7 @@ let numImg = ``;
 
 if (localStorage.getItem("baceground-img")) {
   numImg = localStorage.getItem("baceground-img");
-  landing.style.backgroundImage = `url("../img/landing/${numImg}.jpg")`;
+  landing.style.backgroundImage = `url("./img/landing/${numImg}.jpg")`;
   clear(chencgBacGround);
   allBtn[1].classList.add("active");
   allBtn[0].classList.remove("active");
@@ -274,7 +274,7 @@ let card2 = new Card(
 `
 );
 let card3 = new Card(
-  "./img/prodect/mobile-app.svg",
+  "../img/prodect/mobile-app.svg",
   "Mobile Develope",
   `We are professional marketeers, we will do anything you imagine in no time.
 
