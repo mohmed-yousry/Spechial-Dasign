@@ -289,7 +289,7 @@ let card4 = new Card(
 );
 
 let card6 = new Card(
-  "../img/prodect/web-design.svg",
+  "./img/prodect/web-design.svg",
   "Seo",
   `We are professional marketeers, we will do anything you imagine in no time.
 
