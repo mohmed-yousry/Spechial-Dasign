@@ -61,7 +61,7 @@ let chencgBacGround = ``;
 function setIN() {
   chencgBacGround = setInterval(() => {
     let num = Math.floor(Math.random() * 8);
-    landing.style.backgroundImage = `url("../img/landing/${num}.jpg")`;
+    landing.style.backgroundImage = `url("./img/landing/${num}.jpg")`;
   }, 5000);
 }
 
@@ -119,7 +119,7 @@ allImgBaceground.forEach((img) => {
     allBtn[0].classList.remove("active");
     numImg = e.target.getAttribute("numAtt");
     localStorage.setItem("baceground-img", numImg);
-    landing.style.backgroundImage = `url("../img/landing/${numImg}.jpg")`;
+    landing.style.backgroundImage = `url("./img/landing/${numImg}.jpg")`;
   });
 });
 
@@ -274,7 +274,7 @@ let card2 = new Card(
 `
 );
 let card3 = new Card(
-  "../img/prodect/mobile-app.svg",
+  "./img/prodect/mobile-app.svg",
   "Mobile Develope",
   `We are professional marketeers, we will do anything you imagine in no time.
 
